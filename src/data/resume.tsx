@@ -158,7 +158,7 @@ export const DATA = {
       "badges": [],
       "location": "Haidmühle, Germany",
       "title": "Agricultural Intern",
-      "logoUrl": "/madl-farm.png",
+      "logoUrl": "/internship-ag.jpg",
       "start": "November 2018",
       "end": "February 2019",
       "description": "Participated in a practical agricultural internship with a focus on hands-on farm management and operations."
@@ -169,7 +169,7 @@ export const DATA = {
       "badges": [],
       "location": "Inning am Ammersee, Germany",
       "title": "Agricultural Intern",
-      "logoUrl": "/breuer-farm.png",
+      "logoUrl": "/internship-ag.jpg",
       "start": "May 2018",
       "end": "August 2018",
       "description": "Completed an agricultural internship, gaining experience in farm operations and management."
@@ -177,7 +177,7 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Udemy",
+      school: "Udemy ",
       href: "https://www.udemy.com/course/react-native-the-practical-guide",
       degree: "React Native - The Practical Guide",
       logoUrl: "/udemy.avif",
@@ -195,7 +195,7 @@ export const DATA = {
       location: "Online",
     },
     {
-      school: "Fanvil",
+      school: "Fanvil ",
       href: "http://academy.fanvil.com",
       degree: "Fanvil Certified IP Phone Professional",
       logoUrl: "/fanvil.png",
@@ -267,18 +267,9 @@ export const DATA = {
       location: "Tiranë, Albania",
     },
     {
-      school: "Fortinet NSE Institute",
+      school: "Fortinet NSE Institute ",
       href: "https://training.fortinet.com/",
       degree: "Fortinet Network Security Expert Level 2: Certified Associate",
-      logoUrl: "/Fortinet.webp",
-      start: "16/06/2020",
-      end: "18/06/2020",
-      location: "Tiranë, Albania",
-    },
-    {
-      school: "Fortinet NSE Institute",
-      href: "https://training.fortinet.com/",
-      degree: "Fortinet Network Security Expert Level 1: Certified Associate",
       logoUrl: "/Fortinet.webp",
       start: "16/06/2020",
       end: "18/06/2020",
@@ -303,7 +294,7 @@ export const DATA = {
       location: "Tiranë, Albania",
     },
     {
-      school: "Qender e Formimit Profesional (DRFPP Nr.1)",
+      school: "Qender e Formimit Profesional (DRFPP Nr.1 )",
       href: "https://drfpp1.wordpress.com/",
       degree: "Computer Technician",
       logoUrl: "/drfpp.png",

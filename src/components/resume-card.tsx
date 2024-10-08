@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 interface ResumeCardProps {
   logoUrl: string;
@@ -30,6 +30,11 @@ export const ResumeCard = ({
   description,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
+
+  const [isClient, setIsClient] = useState(false);
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     if (description) {
@@ -86,7 +91,7 @@ export const ResumeCard = ({
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
-          {description && (
+          {description && isClient ? (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
               animate={{
@@ -102,7 +107,8 @@ export const ResumeCard = ({
             >
               {description}
             </motion.div>
-          )}
+          ): <div>{description}</div>
+        }
         </div>
       </Card>
     </Link>
