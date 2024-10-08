@@ -48,6 +48,7 @@ export const ResumeCard = ({
       href={href || "#"}
       className="block cursor-pointer"
       onClick={handleClick}
+      aria-label="click here"
     >
       <Card className="flex">
         <div className="flex-none">
